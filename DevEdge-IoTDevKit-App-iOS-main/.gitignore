@@ -1,0 +1,9 @@
+### macOS ###
+# General
+.DS_Store
+
+## User settings
+xcuserdata/
+**/.xcuserstate
+**/*.xcuserstate
+"IoT Dev Kit Development.xcodeproj/project.xcworkspace/xcuserdata/*.xcuserdatad/UserInterfaceState.xcuserstate"
