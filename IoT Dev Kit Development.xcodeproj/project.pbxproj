@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1724F0FB28D2746B00F4CB9A /* LedStateIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1724F0FA28D2746B00F4CB9A /* LedStateIndicatorView.swift */; };
+		172A34FE281F34AB00BDD6DA /* 3DModel.scn in Resources */ = {isa = PBXBuildFile; fileRef = 172A34FD281F34AB00BDD6DA /* 3DModel.scn */; };
+		175EB67627445E03005D6D47 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175EB67527445E03005D6D47 /* HomeScreen.swift */; };
+		175EB67827445E69005D6D47 /* MotionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175EB67727445E69005D6D47 /* MotionScreen.swift */; };
+		175EB67A27445E9F005D6D47 /* LocationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175EB67927445E9F005D6D47 /* LocationScreen.swift */; };
+		175EB67C27445ED6005D6D47 /* MoreScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175EB67B27445ED6005D6D47 /* MoreScreen.swift */; };
+		175EB67E2745D940005D6D47 /* DebugScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175EB67D2745D940005D6D47 /* DebugScreen.swift */; };
+		17606AA2283EEBCE0020A21A /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17606AA1283EEBCE0020A21A /* Array.swift */; };
+		17612FC327A87EDC00DCF64E /* FirstLaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17612FC227A87EDC00DCF64E /* FirstLaunchScreen.swift */; };
+		17612FC527AA03CB00DCF64E /* AppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17612FC427AA03CB00DCF64E /* AppController.swift */; };
+		17612FC827ADC44000DCF64E /* TurnOnBluetoothView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17612FC727ADC44000DCF64E /* TurnOnBluetoothView.swift */; };
+		17612FCA27ADC4AF00DCF64E /* InstructionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17612FC927ADC4AF00DCF64E /* InstructionView.swift */; };
+		17612FCC27ADC6BD00DCF64E /* ConnectionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17612FCB27ADC6BD00DCF64E /* ConnectionListView.swift */; };
+		176D753B2835D32B00CE14CA /* CLLocationCoordinate2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176D753A2835D32B00CE14CA /* CLLocationCoordinate2D.swift */; };
+		176D8293286E49A1009BA899 /* CBUUID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176D8292286E49A1009BA899 /* CBUUID.swift */; };
+		176D829528762E4D009BA899 /* DataParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176D829428762E4D009BA899 /* DataParserTests.swift */; };
+		176D829628762ED0009BA899 /* DataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB287B02742BAD80081EE1E /* DataParser.swift */; };
+		176D829728762F88009BA899 /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178A77092849700B005E6615 /* Logging.swift */; };
+		176D829828762FBC009BA899 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FE11BF27D6C77C00A7D6E6 /* Data.swift */; };
+		176D829A28775586009BA899 /* LoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176D829928775586009BA899 /* LoggerTests.swift */; };
+		178A770A2849700B005E6615 /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178A77092849700B005E6615 /* Logging.swift */; };
+		179A816E282DA7C50046A1C5 /* MotionSceneManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179A816D282DA7C50046A1C5 /* MotionSceneManager.swift */; };
+		179A8171282DA8910046A1C5 /* FirstLaunchSceneManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179A8170282DA8910046A1C5 /* FirstLaunchSceneManager.swift */; };
+		17A9B21628D3ADC70033F696 /* ButtonStateIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A9B21528D3ADC70033F696 /* ButtonStateIndicatorView.swift */; };
+		17ADB9AA27601697002ECDEB /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17ADB9A927601697002ECDEB /* Color.swift */; };
+		17D3592A28C009D400C103AA /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D3592928C009D400C103AA /* CardView.swift */; };
+		17E50AE6280E0D8400D11373 /* SceneModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E50AE5280E0D8400D11373 /* SceneModelView.swift */; };
+		17FDF44727C5BE7C0042EC7C /* LineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FDF44627C5BE7C0042EC7C /* LineChartView.swift */; };
+		17FE11C027D6C77C00A7D6E6 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FE11BF27D6C77C00A7D6E6 /* Data.swift */; };
+		657846B627BC56FE003A0FB7 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 657846B527BC56FE003A0FB7 /* Settings.bundle */; };
+		657846B927BC58A6003A0FB7 /* SettingsValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657846B827BC58A6003A0FB7 /* SettingsValue.swift */; };
+		9F53473427C6DF5F00DC6E92 /* DetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F53473327C6DF5F00DC6E92 /* DetailScreen.swift */; };
+		9F7B58972851172700475639 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7B58962851172700475639 /* UIImage.swift */; };
+		9FB287802742BA3B0081EE1E /* IoT_Dev_Kit_DevelopmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB2877F2742BA3B0081EE1E /* IoT_Dev_Kit_DevelopmentApp.swift */; };
+		9FB287842742BA3C0081EE1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FB287832742BA3C0081EE1E /* Assets.xcassets */; };
+		9FB287872742BA3C0081EE1E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FB287862742BA3C0081EE1E /* Preview Assets.xcassets */; };
+		9FB287AE2742BABA0081EE1E /* AppContentScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB287AC2742BABA0081EE1E /* AppContentScreen.swift */; };
+		9FB287B32742BAD90081EE1E /* DataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB287B02742BAD80081EE1E /* DataParser.swift */; };
+		9FB287B42742BAD90081EE1E /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB287B12742BAD90081EE1E /* BluetoothManager.swift */; };
+		9FB287B82742BAEA0081EE1E /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB287B72742BAEA0081EE1E /* Board.swift */; };
+		9FC56AD42878DDA500EB4A48 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC56AD32878DDA500EB4A48 /* AboutView.swift */; };
+		9FE23F712746C0BE00A7F11F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE23F702746C0BE00A7F11F /* MapView.swift */; };
+		9FE23F732746C97E00A7F11F /* LocationBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE23F722746C97E00A7F11F /* LocationBox.swift */; };
+		9FF44B0B27D80BA000BD247F /* IOScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF44B0A27D80BA000BD247F /* IOScreen.swift */; };
+		E60E54CD27BB065700C87781 /* EnvironmentScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60E54CC27BB065700C87781 /* EnvironmentScreen.swift */; };
+		E63DA4A427715E430000B8FD /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63DA4A327715E430000B8FD /* SheetView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9FB2878D2742BA3C0081EE1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FB287742742BA3B0081EE1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FB2877B2742BA3B0081EE1E;
+			remoteInfo = "IoT Dev Kit Development";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1724F0FA28D2746B00F4CB9A /* LedStateIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LedStateIndicatorView.swift; sourceTree = "<group>"; };
+		172A34FD281F34AB00BDD6DA /* 3DModel.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = 3DModel.scn; sourceTree = "<group>"; };
+		175EB673274436FF005D6D47 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		175EB67527445E03005D6D47 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		175EB67727445E69005D6D47 /* MotionScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionScreen.swift; sourceTree = "<group>"; };
+		175EB67927445E9F005D6D47 /* LocationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationScreen.swift; sourceTree = "<group>"; };
+		175EB67B27445ED6005D6D47 /* MoreScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreScreen.swift; sourceTree = "<group>"; };
+		175EB67D2745D940005D6D47 /* DebugScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugScreen.swift; sourceTree = "<group>"; };
+		17606AA1283EEBCE0020A21A /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		17612FC227A87EDC00DCF64E /* FirstLaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstLaunchScreen.swift; sourceTree = "<group>"; };
+		17612FC427AA03CB00DCF64E /* AppController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppController.swift; sourceTree = "<group>"; };
+		17612FC727ADC44000DCF64E /* TurnOnBluetoothView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurnOnBluetoothView.swift; sourceTree = "<group>"; };
+		17612FC927ADC4AF00DCF64E /* InstructionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionView.swift; sourceTree = "<group>"; };
+		17612FCB27ADC6BD00DCF64E /* ConnectionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionListView.swift; sourceTree = "<group>"; };
+		176D753A2835D32B00CE14CA /* CLLocationCoordinate2D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLLocationCoordinate2D.swift; sourceTree = "<group>"; };
+		176D8292286E49A1009BA899 /* CBUUID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBUUID.swift; sourceTree = "<group>"; };
+		176D829428762E4D009BA899 /* DataParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataParserTests.swift; sourceTree = "<group>"; };
+		176D829928775586009BA899 /* LoggerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggerTests.swift; sourceTree = "<group>"; };
+		178A77092849700B005E6615 /* Logging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logging.swift; sourceTree = "<group>"; };
+		179A816D282DA7C50046A1C5 /* MotionSceneManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionSceneManager.swift; sourceTree = "<group>"; };
+		179A8170282DA8910046A1C5 /* FirstLaunchSceneManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstLaunchSceneManager.swift; sourceTree = "<group>"; };
+		17A9B21528D3ADC70033F696 /* ButtonStateIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStateIndicatorView.swift; sourceTree = "<group>"; };
+		17ADB9A927601697002ECDEB /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		17D3592928C009D400C103AA /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		17E50AE5280E0D8400D11373 /* SceneModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneModelView.swift; sourceTree = "<group>"; };
+		17FDF44627C5BE7C0042EC7C /* LineChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineChartView.swift; sourceTree = "<group>"; };
+		17FE11BF27D6C77C00A7D6E6 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		657846B527BC56FE003A0FB7 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		657846B827BC58A6003A0FB7 /* SettingsValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsValue.swift; sourceTree = "<group>"; };
+		9F53473327C6DF5F00DC6E92 /* DetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreen.swift; sourceTree = "<group>"; };
+		9F7B58962851172700475639 /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		9FB2877C2742BA3B0081EE1E /* IoT Dev Kit Development.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IoT Dev Kit Development.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FB2877F2742BA3B0081EE1E /* IoT_Dev_Kit_DevelopmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IoT_Dev_Kit_DevelopmentApp.swift; sourceTree = "<group>"; };
+		9FB287832742BA3C0081EE1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9FB287862742BA3C0081EE1E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9FB2878C2742BA3C0081EE1E /* IoT Dev Kit DevelopmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IoT Dev Kit DevelopmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FB287AC2742BABA0081EE1E /* AppContentScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppContentScreen.swift; sourceTree = "<group>"; };
+		9FB287B02742BAD80081EE1E /* DataParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataParser.swift; sourceTree = "<group>"; };
+		9FB287B12742BAD90081EE1E /* BluetoothManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothManager.swift; sourceTree = "<group>"; };
+		9FB287B72742BAEA0081EE1E /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		9FC56AD32878DDA500EB4A48 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		9FDC3CD0275AC6D8006F4C8E /* IoT-Dev-Kit-Development-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "IoT-Dev-Kit-Development-Info.plist"; sourceTree = SOURCE_ROOT; };
+		9FE23F702746C0BE00A7F11F /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		9FE23F722746C97E00A7F11F /* LocationBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationBox.swift; sourceTree = "<group>"; };
+		9FF44B0A27D80BA000BD247F /* IOScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOScreen.swift; sourceTree = "<group>"; };
+		E60E54CC27BB065700C87781 /* EnvironmentScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentScreen.swift; sourceTree = "<group>"; };
+		E63DA4A327715E430000B8FD /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FB287792742BA3B0081EE1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FB287892742BA3C0081EE1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		175EB67427445D08005D6D47 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				17B04AFA2759861A007ADEB3 /* Home */,
+				17E50AE2280E0CCA00D11373 /* Motion */,
+				9FE23F6F2746C0A200A7F11F /* Location */,
+				175EB67D2745D940005D6D47 /* DebugScreen.swift */,
+				9F04ACEC27A3196D004A9F4A /* More */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		17612FC627ADC3A300DCF64E /* ConnectionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				17612FC927ADC4AF00DCF64E /* InstructionView.swift */,
+				E63DA4A327715E430000B8FD /* SheetView.swift */,
+				17612FCB27ADC6BD00DCF64E /* ConnectionListView.swift */,
+				17612FC727ADC44000DCF64E /* TurnOnBluetoothView.swift */,
+			);
+			path = ConnectionSheet;
+			sourceTree = "<group>";
+		};
+		178A77082849689A005E6615 /* Logging */ = {
+			isa = PBXGroup;
+			children = (
+				178A77092849700B005E6615 /* Logging.swift */,
+			);
+			path = Logging;
+			sourceTree = "<group>";
+		};
+		179A816C282DA5FE0046A1C5 /* SceneKit */ = {
+			isa = PBXGroup;
+			children = (
+				172A34FD281F34AB00BDD6DA /* 3DModel.scn */,
+				17E50AE5280E0D8400D11373 /* SceneModelView.swift */,
+			);
+			path = SceneKit;
+			sourceTree = "<group>";
+		};
+		179A816F282DA8780046A1C5 /* FirstLaunch */ = {
+			isa = PBXGroup;
+			children = (
+				17612FC227A87EDC00DCF64E /* FirstLaunchScreen.swift */,
+				179A8170282DA8910046A1C5 /* FirstLaunchSceneManager.swift */,
+			);
+			path = FirstLaunch;
+			sourceTree = "<group>";
+		};
+		17ADB9A82760167B002ECDEB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				17606AA1283EEBCE0020A21A /* Array.swift */,
+				176D8292286E49A1009BA899 /* CBUUID.swift */,
+				176D753A2835D32B00CE14CA /* CLLocationCoordinate2D.swift */,
+				17ADB9A927601697002ECDEB /* Color.swift */,
+				17FE11BF27D6C77C00A7D6E6 /* Data.swift */,
+				9F7B58962851172700475639 /* UIImage.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		17B04AFA2759861A007ADEB3 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9F53473327C6DF5F00DC6E92 /* DetailScreen.swift */,
+				175EB67527445E03005D6D47 /* HomeScreen.swift */,
+				E60E54CC27BB065700C87781 /* EnvironmentScreen.swift */,
+				9FF44B0A27D80BA000BD247F /* IOScreen.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		17D3594D28CBF04B00C103AA /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				17A9B21528D3ADC70033F696 /* ButtonStateIndicatorView.swift */,
+				17D3592928C009D400C103AA /* CardView.swift */,
+				1724F0FA28D2746B00F4CB9A /* LedStateIndicatorView.swift */,
+				17FDF44627C5BE7C0042EC7C /* LineChartView.swift */,
+				179A816C282DA5FE0046A1C5 /* SceneKit */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		17E50AE2280E0CCA00D11373 /* Motion */ = {
+			isa = PBXGroup;
+			children = (
+				175EB67727445E69005D6D47 /* MotionScreen.swift */,
+				179A816D282DA7C50046A1C5 /* MotionSceneManager.swift */,
+			);
+			path = Motion;
+			sourceTree = "<group>";
+		};
+		657846B727BC5861003A0FB7 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				657846B827BC58A6003A0FB7 /* SettingsValue.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		9F04ACEC27A3196D004A9F4A /* More */ = {
+			isa = PBXGroup;
+			children = (
+				175EB67B27445ED6005D6D47 /* MoreScreen.swift */,
+				9FC56AD32878DDA500EB4A48 /* AboutView.swift */,
+			);
+			path = More;
+			sourceTree = "<group>";
+		};
+		9FB287732742BA3B0081EE1E = {
+			isa = PBXGroup;
+			children = (
+				175EB673274436FF005D6D47 /* README.md */,
+				9FB2877E2742BA3B0081EE1E /* IoT Dev Kit Development */,
+				9FB2878F2742BA3C0081EE1E /* IoT Dev Kit DevelopmentTests */,
+				9FB2877D2742BA3B0081EE1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9FB2877D2742BA3B0081EE1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FB2877C2742BA3B0081EE1E /* IoT Dev Kit Development.app */,
+				9FB2878C2742BA3C0081EE1E /* IoT Dev Kit DevelopmentTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FB2877E2742BA3B0081EE1E /* IoT Dev Kit Development */ = {
+			isa = PBXGroup;
+			children = (
+				9FB287832742BA3C0081EE1E /* Assets.xcassets */,
+				657846B527BC56FE003A0FB7 /* Settings.bundle */,
+				9FDC3CD0275AC6D8006F4C8E /* IoT-Dev-Kit-Development-Info.plist */,
+				9FB2877F2742BA3B0081EE1E /* IoT_Dev_Kit_DevelopmentApp.swift */,
+				17612FC427AA03CB00DCF64E /* AppController.swift */,
+				9FB287B72742BAEA0081EE1E /* Board.swift */,
+				9FB287B62742BADD0081EE1E /* Bluetooth */,
+				17ADB9A82760167B002ECDEB /* Extensions */,
+				9FB287AF2742BACA0081EE1E /* UI */,
+				178A77082849689A005E6615 /* Logging */,
+				657846B727BC5861003A0FB7 /* Settings */,
+				9FB287852742BA3C0081EE1E /* Preview Content */,
+			);
+			path = "IoT Dev Kit Development";
+			sourceTree = "<group>";
+		};
+		9FB287852742BA3C0081EE1E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9FB287862742BA3C0081EE1E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9FB2878F2742BA3C0081EE1E /* IoT Dev Kit DevelopmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				176D829428762E4D009BA899 /* DataParserTests.swift */,
+				176D829928775586009BA899 /* LoggerTests.swift */,
+			);
+			path = "IoT Dev Kit DevelopmentTests";
+			sourceTree = "<group>";
+		};
+		9FB287AF2742BACA0081EE1E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				9FB287AC2742BABA0081EE1E /* AppContentScreen.swift */,
+				17D3594D28CBF04B00C103AA /* Components */,
+				17612FC627ADC3A300DCF64E /* ConnectionSheet */,
+				179A816F282DA8780046A1C5 /* FirstLaunch */,
+				175EB67427445D08005D6D47 /* Tabs */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		9FB287B62742BADD0081EE1E /* Bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				9FB287B12742BAD90081EE1E /* BluetoothManager.swift */,
+				9FB287B02742BAD80081EE1E /* DataParser.swift */,
+			);
+			path = Bluetooth;
+			sourceTree = "<group>";
+		};
+		9FE23F6F2746C0A200A7F11F /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				175EB67927445E9F005D6D47 /* LocationScreen.swift */,
+				9FE23F722746C97E00A7F11F /* LocationBox.swift */,
+				9FE23F702746C0BE00A7F11F /* MapView.swift */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FB2877B2742BA3B0081EE1E /* IoT Dev Kit Development */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FB287A02742BA3C0081EE1E /* Build configuration list for PBXNativeTarget "IoT Dev Kit Development" */;
+			buildPhases = (
+				9FB287782742BA3B0081EE1E /* Sources */,
+				9FB287792742BA3B0081EE1E /* Frameworks */,
+				9FB2877A2742BA3B0081EE1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IoT Dev Kit Development";
+			productName = "IoT Dev Kit Development";
+			productReference = 9FB2877C2742BA3B0081EE1E /* IoT Dev Kit Development.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9FB2878B2742BA3C0081EE1E /* IoT Dev Kit DevelopmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FB287A32742BA3C0081EE1E /* Build configuration list for PBXNativeTarget "IoT Dev Kit DevelopmentTests" */;
+			buildPhases = (
+				9FB287882742BA3C0081EE1E /* Sources */,
+				9FB287892742BA3C0081EE1E /* Frameworks */,
+				9FB2878A2742BA3C0081EE1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FB2878E2742BA3C0081EE1E /* PBXTargetDependency */,
+			);
+			name = "IoT Dev Kit DevelopmentTests";
+			productName = "IoT Dev Kit DevelopmentTests";
+			productReference = 9FB2878C2742BA3C0081EE1E /* IoT Dev Kit DevelopmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FB287742742BA3B0081EE1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					9FB2877B2742BA3B0081EE1E = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					9FB2878B2742BA3C0081EE1E = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = 9FB2877B2742BA3B0081EE1E;
+					};
+				};
+			};
+			buildConfigurationList = 9FB287772742BA3B0081EE1E /* Build configuration list for PBXProject "IoT Dev Kit Development" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9FB287732742BA3B0081EE1E;
+			productRefGroup = 9FB2877D2742BA3B0081EE1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FB2877B2742BA3B0081EE1E /* IoT Dev Kit Development */,
+				9FB2878B2742BA3C0081EE1E /* IoT Dev Kit DevelopmentTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FB2877A2742BA3B0081EE1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FB287872742BA3C0081EE1E /* Preview Assets.xcassets in Resources */,
+				657846B627BC56FE003A0FB7 /* Settings.bundle in Resources */,
+				172A34FE281F34AB00BDD6DA /* 3DModel.scn in Resources */,
+				9FB287842742BA3C0081EE1E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FB2878A2742BA3C0081EE1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FB287782742BA3B0081EE1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FE23F712746C0BE00A7F11F /* MapView.swift in Sources */,
+				17606AA2283EEBCE0020A21A /* Array.swift in Sources */,
+				17612FCC27ADC6BD00DCF64E /* ConnectionListView.swift in Sources */,
+				17A9B21628D3ADC70033F696 /* ButtonStateIndicatorView.swift in Sources */,
+				1724F0FB28D2746B00F4CB9A /* LedStateIndicatorView.swift in Sources */,
+				9F7B58972851172700475639 /* UIImage.swift in Sources */,
+				17612FC827ADC44000DCF64E /* TurnOnBluetoothView.swift in Sources */,
+				9FE23F732746C97E00A7F11F /* LocationBox.swift in Sources */,
+				17FE11C027D6C77C00A7D6E6 /* Data.swift in Sources */,
+				175EB67827445E69005D6D47 /* MotionScreen.swift in Sources */,
+				176D753B2835D32B00CE14CA /* CLLocationCoordinate2D.swift in Sources */,
+				9FB287B32742BAD90081EE1E /* DataParser.swift in Sources */,
+				175EB67E2745D940005D6D47 /* DebugScreen.swift in Sources */,
+				17E50AE6280E0D8400D11373 /* SceneModelView.swift in Sources */,
+				9FB287B42742BAD90081EE1E /* BluetoothManager.swift in Sources */,
+				9F53473427C6DF5F00DC6E92 /* DetailScreen.swift in Sources */,
+				17ADB9AA27601697002ECDEB /* Color.swift in Sources */,
+				175EB67627445E03005D6D47 /* HomeScreen.swift in Sources */,
+				17FDF44727C5BE7C0042EC7C /* LineChartView.swift in Sources */,
+				176D8293286E49A1009BA899 /* CBUUID.swift in Sources */,
+				17612FC527AA03CB00DCF64E /* AppController.swift in Sources */,
+				E63DA4A427715E430000B8FD /* SheetView.swift in Sources */,
+				175EB67A27445E9F005D6D47 /* LocationScreen.swift in Sources */,
+				E60E54CD27BB065700C87781 /* EnvironmentScreen.swift in Sources */,
+				175EB67C27445ED6005D6D47 /* MoreScreen.swift in Sources */,
+				9FB287B82742BAEA0081EE1E /* Board.swift in Sources */,
+				9FC56AD42878DDA500EB4A48 /* AboutView.swift in Sources */,
+				179A8171282DA8910046A1C5 /* FirstLaunchSceneManager.swift in Sources */,
+				17612FC327A87EDC00DCF64E /* FirstLaunchScreen.swift in Sources */,
+				657846B927BC58A6003A0FB7 /* SettingsValue.swift in Sources */,
+				179A816E282DA7C50046A1C5 /* MotionSceneManager.swift in Sources */,
+				9FF44B0B27D80BA000BD247F /* IOScreen.swift in Sources */,
+				178A770A2849700B005E6615 /* Logging.swift in Sources */,
+				17612FCA27ADC4AF00DCF64E /* InstructionView.swift in Sources */,
+				17D3592A28C009D400C103AA /* CardView.swift in Sources */,
+				9FB287AE2742BABA0081EE1E /* AppContentScreen.swift in Sources */,
+				9FB287802742BA3B0081EE1E /* IoT_Dev_Kit_DevelopmentApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FB287882742BA3C0081EE1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				176D829528762E4D009BA899 /* DataParserTests.swift in Sources */,
+				176D829A28775586009BA899 /* LoggerTests.swift in Sources */,
+				176D829828762FBC009BA899 /* Data.swift in Sources */,
+				176D829628762ED0009BA899 /* DataParser.swift in Sources */,
+				176D829728762F88009BA899 /* Logging.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9FB2878E2742BA3C0081EE1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FB2877B2742BA3B0081EE1E /* IoT Dev Kit Development */;
+			targetProxy = 9FB2878D2742BA3C0081EE1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9FB2879E2742BA3C0081EE1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9FB2879F2742BA3C0081EE1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FB287A12742BA3C0081EE1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IoT Dev Kit Development/Preview Content\"";
+				DEVELOPMENT_TEAM = M562Z8RFTP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "IoT-Dev-Kit-Development-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "DevEdge IoT";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app uses Bluetooth to detect and communicate with nearby IoT devices.";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "This app uses Bluetooth to detect and communicate with nearby IoT devices.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This app uses your location to alert you if one of your sensor events is triggered.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app uses your location to alert you if one of your sensor events is triggered.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tmobile.iot-dev-kit-companion";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9FB287A22742BA3C0081EE1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IoT Dev Kit Development/Preview Content\"";
+				DEVELOPMENT_TEAM = M562Z8RFTP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "IoT-Dev-Kit-Development-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "DevEdge IoT";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app uses Bluetooth to detect and communicate with nearby IoT devices.";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "This app uses Bluetooth to detect and communicate with nearby IoT devices.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This app uses your location to alert you if one of your sensor events is triggered.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app uses your location to alert you if one of your sensor events is triggered.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tmobile.iot-dev-kit-companion";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9FB287A42742BA3C0081EE1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M562Z8RFTP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tmobile.IoT-Dev-Kit-DevelopmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IoT Dev Kit Development.app/IoT Dev Kit Development";
+			};
+			name = Debug;
+		};
+		9FB287A52742BA3C0081EE1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M562Z8RFTP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tmobile.IoT-Dev-Kit-DevelopmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IoT Dev Kit Development.app/IoT Dev Kit Development";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FB287772742BA3B0081EE1E /* Build configuration list for PBXProject "IoT Dev Kit Development" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FB2879E2742BA3C0081EE1E /* Debug */,
+				9FB2879F2742BA3C0081EE1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FB287A02742BA3C0081EE1E /* Build configuration list for PBXNativeTarget "IoT Dev Kit Development" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FB287A12742BA3C0081EE1E /* Debug */,
+				9FB287A22742BA3C0081EE1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FB287A32742BA3C0081EE1E /* Build configuration list for PBXNativeTarget "IoT Dev Kit DevelopmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FB287A42742BA3C0081EE1E /* Debug */,
+				9FB287A52742BA3C0081EE1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FB287742742BA3B0081EE1E /* Project object */;
+}
